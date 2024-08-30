@@ -1,243 +1,161 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <!-- bootstrap icon -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap 5.3 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <!-- Bootsrtap ICON -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
-    <!-- My Css -->
-    <link rel="stylesheet" href="style.css" />
-    <title>My Portfolio</title>
+    <!-- My Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Viga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap">
+
+    <!-- My CSS -->
+     <link rel="stylesheet" href="style.css">
+
+    <title>Apid Mustapid</title>
   </head>
-  <body id="home">
-    <!-- navbar -->
+  <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Apid Mustapid</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#galery">Galery</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+        <div class="container">
+            <a class="navbar-brand" href="#">Apid Mustapid</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+                <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Business</a>
+                <a class="nav-item nav-link" href="#">Study</a>
+                <a class="nav-item nav-link" href="#">Hobby</a>
+                <a class="nav-item nav-link" href="me/index.html">About</a>
+                <a class="nav-item tombol btn btn-primary" href="#">Join Me</a>
+            </div>
+            </div>
+        </div>
+      </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- jumbotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">"Hasil Yang <span>Baik</span> Datang Dari Kerja Keras Yang Dilakukan <span>Konsisten"</span></h1>
+          <a href="me/index.html" class="btn btn-primary tombol">My Portfolio</a>
         </div>
       </div>
-    </nav>
-    <!-- akhir navbar -->
+    <!-- akhir jumbotron -->
+    <!-- Container -->
+     <div class="container">
+        <!-- Info panel -->
+         <div class="row justify-content-center">
+            <div class="col-10 info-panel">
+                <div class="row">
+                    
+                    <div class="col-lg panel-hover">
+                      <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <img src="img/bisnis.png" alt="employee" class="float-left">
+                        <h4>Bisnisku</h4>
+                        <p>Rencanakan, Kerjakan, Bagikan</p></a>
+                    </div>
+                    
+                    <div class="col-lg panel-hover">
+                      <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <img src="img/belajar.png" alt="hires" class="float-left">
+                        <h4>Belajarku</h4>
+                        <p>Mencari, Mengetahui, Memberi</p></a>
+                    </div>
+                    <div class="col-lg panel-hover">
+                      <a class="link-offset-2 link-underline link-underline-opacity-0" href="#">
+                        <img src="img/hobi.png" alt="security" class="float-left">
+                        <h4>Hobiku</h4>
+                        <p>Amati, Nikmati, Syukuri</p></a>
+                    </div>
+                    <div class="col-lg panel-hover">
+                        <a class="link-offset-2 link-underline link-underline-opacity-0" href="me/index.html"><img src="img/tentang.png" alt="security" class="float-left">
+                        <h4>Tentangku</h4>
+                        <p>Membaca, Berkaca, Menerima</p></a>
+                    </div>
+                </div>
 
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/logo.png" alt="" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Apid Mustapid</h1>
-      <p class="lead">Web Developer | Photografer | Adventurer</p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,160L26.7,170.7C53.3,181,107,203,160,197.3C213.3,192,267,160,320,154.7C373.3,149,427,171,480,186.7C533.3,203,587,213,640,202.7C693.3,192,747,160,800,144C853.3,128,907,128,960,128C1013.3,128,1067,128,1120,149.3C1173.3,171,1227,213,1280,224C1333.3,235,1387,213,1413,202.7L1440,192L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- AKhir Jumbotron -->
+            </div>
+         </div>
+         <!-- Akhir info panel -->
+          <!-- Working space -->
+           <div class="row workingspace">
+            <div class="col-lg-6">
+                <img src="img/gallery.jpg" alt="workingspace" class="img-fluid">
+            </div>
+            <div class="col-lg-5">
+                <h3>Apa Yang Kamu <span>Dapatkan</span> Sekarang Adalah Hasil Dari <span>Rencana</span> Masa Lalu</h3>
+                <!-- <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae aliquid non aut!</p> -->
+                <a href="gallery/index.html" class="btn btn-primary tombol gallery">Gallery</a>
+            </div>
+           </div>
+           <!-- Akhir working space -->
+           <!-- Testimonial -->
+            <section class="testimonial">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <h5>"Cageur Bageur Hidup Nyaman Hati Tentram"</h5>
+                    </div>
+                </div>
 
-    <!-- about -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col mb-3">
-            <h2>About Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>
-              Hai, Selamat datang ! <br />
-              Perkenalkan nama saya Apid Mustapid, Saya seorang Santri di salah satu Pondok Pesantren Salafi, Selain ‘Nyantri’ Saya juga Alhamdulillah telah menamatkan Pendidikan S1 di STKIP Setiabudhi Rangkasbitung Banten, Jurusan
-              Pendidikan Jasmani Olahraga dan Kesehatan pada Tahun 2014 dengan IPK 2,99 / 3.0, Dengan berat badan 65 Kg dan tinggi badan 175 Cm. Saya adalah tipe orang yang suka mempelajari hal baru dan mudah bersosialisasi, Hobi saya
-              mendaki Gunung, beberapa Gunung di Indonesia telah saya daki. <br />
-              Hobi kawan – kawan apa??
-            </p>
-          </div>
-          <div class="col-md-4">
-            <p>
-              Berlatar belakang santri sekaligus seorang Sarjana saya sangat suka mempelajari hal – hal baru, belakangan ini saya sedang mencari kesibukan dengan berjualan di beberapa Marketplace, dan belakangan ini saya kembali mendalami
-              Teknologi di bidang komputer, Diantaranya saya mendalami Web Design Html, CSS, Boostrap, Javascript, Canva, Coreldraw dan tentunya Microsoft Office. <br />
-              Oke, Terimakasih telah berkunjung ke Website saya, jika ada pertanyaan silahkan untuk masukan di kolom input di bawah ya.. <br />
-              Happy Nice Day ! <br />
-              <i class="bi bi-heart-fill text-danger"></i>
-            </p>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#e2edff"
-          fill-opacity="1"
-          d="M0,160L26.7,154.7C53.3,149,107,139,160,149.3C213.3,160,267,192,320,192C373.3,192,427,160,480,133.3C533.3,107,587,85,640,106.7C693.3,128,747,192,800,197.3C853.3,203,907,149,960,149.3C1013.3,149,1067,203,1120,192C1173.3,181,1227,107,1280,90.7C1333.3,75,1387,117,1413,138.7L1440,160L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir about -->
-    <!-- Galery -->
-    <section id="galery">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>My Galery</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/galery/1.png" class="card-img-top" alt="Puncak Rinjani" />
-              <div class="card-body">
-                <p class="card-text">Puncak Gunung Rinjani 3726 Mdpl yang cukup menguras tenaga dan mental untuk menggapainya, dengan perjuangan yang berat Alhamdulillah saya bisa menginjakan kaki di atasnya</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/galery/2.png" class="card-img-top" alt="Mt.Kerinci" />
-              <div class="card-body">
-                <p class="card-text">Shelter 3 Gunung Kerinci, Gunung yang masih penuh dengan satwa liarnya, 3 hari 2 malam yang cukup melelahkan untuk sampai menuju puncak</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/galery/3.png" class="card-img-top" alt="Puncak Kerinci" />
-              <div class="card-body">
-                <p class="card-text">Puncak Gunung Kerinci 3805 Mdpl, merupakan salah satu gunung Berapi Tertinggi di Asia Tenggara. Tidak ada yang tidak mungkin dalam hidup selama kita masih mau berikhtiar.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/galery/4.png" class="card-img-top" alt="Mt.Rinjani" />
-              <div class="card-body">
-                <p class="card-text">Hobi yang terpendam tidak dapat terbendung ketika melihat pemandangan yang Eksotis seperti ini, Photografer, Leter S Puncak Rinjani</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="card">
-              <img src="img/galery/5.png" class="card-img-top" alt="Mt.sindoro" />
-              <div class="card-body">
-                <p class="card-text">Batu Tatah Gunung Sindoro, yang berhadapan langsung dengan Gunung Sumbing, Wonosobo memang kota Gunung. Saya akan kembali !</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#ffffff"
-          fill-opacity="1"
-          d="M0,224L40,208C80,192,160,160,240,144C320,128,400,128,480,133.3C560,139,640,149,720,170.7C800,192,880,224,960,245.3C1040,267,1120,277,1200,261.3C1280,245,1360,203,1400,181.3L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- Akhir galery -->
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 justify-content-center d-flex">
+                        <!-- 
+                        <figure class="figure">
+                            <img src="img/img2.png" class="figure-img img-fluid rounded-circle" alt="testi 2">
+                          </figure>  -->
+                        <figure class="figure">
+                            <a href="https://web.facebook.com/zaedunqoimun99/"><img src="img/me.jpg" class="figure-img img-fluid rounded-circle utama" alt="me"></a>
+                            <figcaption class="figure-caption"><h5><a href="https://web.facebook.com/zaedunqoimun99/"><i class="bi bi-facebook text-blue"></i></a></h5>
+                            <p>"Mari Berteman"</p>
+                            </figcaption>
+                          </figure>
+                          <!-- 
+                          <figure class="figure">
+                            <img src="img/img3.png" class="figure-img img-fluid rounded-circle" alt="testi 3">
+                          </figure>  -->
+                    </div>
+                </div>
+            </section>
+            <!-- Akhir testimonial -->
+     </div>
+     <!-- Akhir container -->
 
-    <!-- contact -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <div class="alert alert-info alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Terimakasih ! </strong> Pesan anda sudah terkirim.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-            <form name="portfolio-kontak-form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Masukan Nama</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama" />
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email" />
-                <div id="emailHelp" class="form-text"></div>
-              </div>
-              <div class="mb-3">
-                <label for="pesan" class="form-label">Pesan</label>
-                <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+     <div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,192L10,208C20,224,40,256,60,229.3C80,203,100,117,120,112C140,107,160,181,180,197.3C200,213,220,171,240,165.3C260,160,280,192,300,197.3C320,203,340,181,360,176C380,171,400,181,420,197.3C440,213,460,235,480,234.7C500,235,520,213,540,218.7C560,224,580,256,600,245.3C620,235,640,181,660,160C680,139,700,149,720,170.7C740,192,760,224,780,250.7C800,277,820,299,840,266.7C860,235,880,149,900,138.7C920,128,940,192,960,202.7C980,213,1000,171,1020,165.3C1040,160,1060,192,1080,224C1100,256,1120,288,1140,288C1160,288,1180,256,1200,250.7C1220,245,1240,267,1260,266.7C1280,267,1300,245,1320,202.7C1340,160,1360,96,1380,90.7C1400,85,1420,139,1430,165.3L1440,192L1440,320L1430,320C1420,320,1400,320,1380,320C1360,320,1340,320,1320,320C1300,320,1280,320,1260,320C1240,320,1220,320,1200,320C1180,320,1160,320,1140,320C1120,320,1100,320,1080,320C1060,320,1040,320,1020,320C1000,320,980,320,960,320C940,320,920,320,900,320C880,320,860,320,840,320C820,320,800,320,780,320C760,320,740,320,720,320C700,320,680,320,660,320C640,320,620,320,600,320C580,320,560,320,540,320C520,320,500,320,480,320C460,320,440,320,420,320C400,320,380,320,360,320C340,320,320,320,300,320C280,320,260,320,240,320C220,320,200,320,180,320C160,320,140,320,120,320C100,320,80,320,60,320C40,320,20,320,10,320L0,320Z"></path></svg>
+     </div>
 
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
-          </div>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
-        <path
-          fill="#0d6efd"
-          fill-opacity="1"
-          d="M0,160L24,149.3C48,139,96,117,144,117.3C192,117,240,139,288,170.7C336,203,384,245,432,224C480,203,528,117,576,96C624,75,672,117,720,149.3C768,181,816,203,864,197.3C912,192,960,160,1008,160C1056,160,1104,192,1152,213.3C1200,235,1248,245,1296,234.7C1344,224,1392,192,1416,176L1440,160L1440,320L1416,320C1392,320,1344,320,1296,320C1248,320,1200,320,1152,320C1104,320,1056,320,1008,320C960,320,912,320,864,320C816,320,768,320,720,320C672,320,624,320,576,320C528,320,480,320,432,320C384,320,336,320,288,320C240,320,192,320,144,320C96,320,48,320,24,320L0,320Z"
-        ></path>
-      </svg>
-    </section>
-    <!-- akhir contak -->
+     <div>
+        <!-- footer -->
+    <footer class="bg-primary text-white text-center pb-2">
+        <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/almustafidhi/" class="text-white fw-bold">Apid Mustapid</a></p>
+      </footer>
+      <!-- akhir footer -->
+     </div>
 
-    <!-- footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Created with <i class="bi bi-suit-heart-fill text-danger"></i> by <a href="https://www.instagram.com/mooes_fg/" class="text-white fw-bold">Apid Mustapid</a></p>
-    </footer>
-    <!-- akhir footer -->
 
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- Script bootstrap 5 -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    <script>
-      const scriptURL = "https://script.google.com/macros/s/AKfycbxeLDPY5ZR7yBUPOq8jHkypV7HmrZ4G5-FQ8CqXhiNWnwL2f23H0QNxjOZ_kdsuWrYi/exec";
-      const form = document.forms["portfolio-kontak-form"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const myAlert = document.querySelector(".my-alert");
-
-      form.addEventListener("submit", (e) => {
-        e.preventDefault();
-        // ketika tombol submit di klik
-        // tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle("d-none");
-        btnKirim.classList.toggle("d-none");
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            // tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle("d-none");
-            btnKirim.classList.toggle("d-none");
-            // tampilkan alert
-            myAlert.classList.toggle("d-none");
-            // hilangkan form
-            form.reset();
-            console.log("Success!", response);
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
+    <!-- Bootstrap 5.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
